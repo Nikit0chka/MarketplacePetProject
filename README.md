@@ -2,4 +2,4 @@
 
 Пример аналогичного проекта 
 
-https://github.com/aforesaid/RtuItLab/tree/master/src
+https://github.com/aforesaid/RtuItLab

@@ -1,20 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
 using MyProduct = Infrastructure.Models.Product;
 
-namespace Product.API.Controllers
+namespace Product.API
 {
+    [Route("api/products")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductService : ControllerBase
     {
         [HttpGet]
         public async Task<IActionResult> GetAllProducts()
         {
-            throw new NotImplementedException();
+            return Ok(new MyProduct());
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetProductById(int id)
+        [HttpGet("{productId}")]
+        public async Task<IActionResult> GetProductById(int productId)
         {
             throw new NotImplementedException();
         }

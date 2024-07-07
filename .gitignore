@@ -1,0 +1,7 @@
+/.vs
+/Marketplace/bin
+/Marketplace/obj
+/Infrastructure/bin
+/Infrastructure/obj
+/Microservices/Product.API/bin
+/Microservices/Product.API/obj

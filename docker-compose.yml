@@ -1,6 +1,0 @@
-﻿services:
-  authorizationservice:
-    image: authorizationservice
-    build:
-      context: .
-      dockerfile: AuthorizationService/Dockerfile

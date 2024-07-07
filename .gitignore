@@ -3,5 +3,13 @@
 /Marketplace/obj
 /Infrastructure/bin
 /Infrastructure/obj
+/Repositories/bin
+/Repositories/obj
+/Services/obj
+/Services/bin
+/Entities/bin
+/Entities/obj
 /Microservices/Product.API/bin
 /Microservices/Product.API/obj
+/Microservices/Authentication.Api/obj
+/Microservices/Authentication.Api/bin

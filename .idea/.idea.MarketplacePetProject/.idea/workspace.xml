@@ -18,224 +18,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2378a476-0710-4b2e-b8db-15691a2a2f49" name="Changes" comment="Пофиксил мердж. Вроде бы...">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MarketplacePetProject/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MarketplacePetProject/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MarketplacePetProject/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MarketplacePetProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MarketplacePetProject/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices/Authentication.Api/Authentication.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices/Authentication.Api/Controllers/AuthenticationController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices/Authentication.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/Authentication.Api.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/AuthorizationService.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/Controllers/AuthenticationController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Authentication.Api.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Authentication.Api.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/AuthenticationService.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/AuthenticationService.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/AuthenticationService.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/AuthorizationService.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/AuthorizationService.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Azure.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Entities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Entities.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.Identity.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.OpenApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Repositories.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Repositories.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Services.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/System.Memory.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/System.Security.Permissions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/AuthenticationService.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/AuthenticationService.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/AuthenticationService.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/AuthorizationService.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/AuthorizationService.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/Authenti.B4DABC11.Up2Date" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthenticationService.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/AuthorizationService.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/ref/AuthenticationService.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/ref/AuthorizationService.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/refint/AuthorizationService.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/staticwebassets/msbuild.build.AuthenticationService.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/staticwebassets/msbuild.build.AuthorizationService.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AuthenticationService.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AuthorizationService.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AuthenticationService.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AuthorizationService.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Release/net8.0/AuthorizationService.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Release/net8.0/AuthorizationService.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Release/net8.0/AuthorizationService.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Release/net8.0/AuthorizationService.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Release/net8.0/AuthorizationService.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/Release/net8.0/AuthorizationService.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication.Api/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net8.0/Entities.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net8.0/Entities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net8.0/Entities.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/Entities.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/ref/Entities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net8.0/refint/Entities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net8.0/Entities.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net8.0/Entities.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net8.0/Entities.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net8.0/Entities.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net8.0/Entities.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarketplacePetProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MarketplacePetProject.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/bin/Debug/net8.0/Entities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/bin/Debug/net8.0/Entities.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/bin/Debug/net8.0/Repositories.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/bin/Debug/net8.0/Repositories.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/bin/Debug/net8.0/Repositories.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Reposito.787EC4B2.Up2Date" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Repositories.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Services.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Services.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/Services.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/ref/Repositories.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/net8.0/refint/Repositories.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Release/net8.0/Repositories.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Release/net8.0/Repositories.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Release/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Release/net8.0/Repositories.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Release/net8.0/Repositories.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Repositories.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Repositories.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Repositories.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Services.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Services.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/Services.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net8.0/Entities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net8.0/Entities.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net8.0/Repositories.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net8.0/Repositories.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net8.0/Services.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net8.0/Services.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net8.0/Services.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.csproj.Up2Date" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/Services.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/ref/Services.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net8.0/refint/Services.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/rider.project.restore.info" beforeDir="false" />
+    <list default="true" id="2378a476-0710-4b2e-b8db-15691a2a2f49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Entities/ExtendedClaimTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarketplacePetProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarketplacePetProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/DataBase/AdminContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/DataBase/AdminContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/DataBase/Models/RefreshToken.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/DataBase/Models/RefreshToken.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/MicroServices/Models/AccessTokenModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/MicroServices/Models/AccessTokenModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/MicroServices/Models/LoginModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/MicroServices/Models/LoginModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/MicroServices/Models/RefreshTokensModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/MicroServices/Models/RefreshTokensModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Authentication.Api/Controllers/AuthenticationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Authentication.Api/Controllers/AuthenticationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Authentication.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Authentication.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Product.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Product.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/ServiceInterfaces/ITokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/ServiceInterfaces/ITokenService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/TokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TokenService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,18 +63,19 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Authentication.Api/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Authentication.Api/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/voron/RiderProjects/MarketplacePetProject/AuthenticationService/obj/Debug/net8.0/AuthenticationService.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/2f1db20456007c9515068a35a65afdf99af70bc6/src/Mvc/Mvc.Core/src/FromBodyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0308d995074f4663b87ab86169c72b7d22920/ff/b53361ee/IOptions`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4f790d6448334ed09ad0a9a30db2c2ca188a0/76/f382c9f8/ClaimTypes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/voron/RiderProjects/MarketplacePetProject/Microservices/Authentication.Api/Controllers/AuthenticationController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Repositories/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -293,6 +89,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.Authentication.Api: https.executor": "Debug",
     ".NET Launch Settings Profile.AuthenticationService: http.executor": "Debug",
+    ".NET Launch Settings Profile.Product.API: https.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -300,6 +97,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -458,7 +256,10 @@
       <workItem from="1720379580506" duration="1148000" />
       <workItem from="1720380788737" duration="134000" />
       <workItem from="1720381132705" duration="1114000" />
-      <workItem from="1720382278936" duration="2036000" />
+      <workItem from="1720382278936" duration="3958000" />
+      <workItem from="1720386416477" duration="320000" />
+      <workItem from="1720450256835" duration="3306000" />
+      <workItem from="1720705168565" duration="11415000" />
     </task>
     <task id="LOCAL-00001" summary="Пофиксил мердж. Вроде бы...">
       <option name="closed" value="true" />
@@ -468,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720382446662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Поправил папочки. Добавил в гитигнор новые проекты">
+      <option name="closed" value="true" />
+      <created>1720384590253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720384590253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,6 +311,11 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Пофиксил мердж. Вроде бы..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Пофиксил мердж. Вроде бы..." />
+    <MESSAGE value="Поправил папочки. Добавил в гитигнор новые проекты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил папочки. Добавил в гитигнор новые проекты" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

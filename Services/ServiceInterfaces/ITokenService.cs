@@ -4,10 +4,11 @@ namespace Services.ServiceInterfaces;
 
 public interface ITokenService:IDisposable, IAsyncDisposable
 {
-    string GenerateToken(string secretTokenKey, int tokenExpireMinutes, string email, Role role);
-    string GetEmailFromToken(string token, string secretTokenKey);
-    Role GetRoleFromToken(string token, string secretTokenKey);
-    Task<bool> IsValidRefreshTokenAsync(string refreshToken, string secretTokenKey);
+    string TryGenerateToken(int tokenExpireMinutes, string login, Role role);
+    string TryGetLoginFromToken(string token);
+    Role TryGetRoleFromToken(string token);
+    Task<bool> IsValidRefreshTokenAsync(string refreshToken);
+    Task TryUpdateTokenInDataBaseAsync(string token, string newToken);
     Task TryAddTokenToDataBaseAsync(string token);
-    
+
 }

@@ -1,8 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Entities.MicroServices.Models;
 
 public class LoginModel
 {
-    public string Username { get; set; }
-    public string Email { get; set; }
-    public string Password { get; set; }
+    [StringLength(250, MinimumLength = 1)] public required string Login { get; set; }
+
+    [StringLength(250, MinimumLength = 1)] public required string Password { get; set; }
 }

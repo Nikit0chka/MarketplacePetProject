@@ -9,17 +9,27 @@ using Services.ServiceInterfaces;
 
 namespace Services;
 
-public class TokenService(IRefreshTokenRepository refreshTokenRepository):ITokenService
+public class TokenService(IRefreshTokenRepository refreshTokenRepository, string secretTokenKey):ITokenService
 {
-    public string GenerateToken(string secretTokenKey, int tokenExpireMinutes, string email, Role role)
+    private readonly TokenValidationParameters _validationParameters = new()
+                                                                       {
+                                                                           ValidateIssuerSigningKey = true,
+                                                                           IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretTokenKey)),
+                                                                           ValidateIssuer = false,
+                                                                           ValidateAudience = false
+                                                                       };
+
+    public string TryGenerateToken(int tokenExpireMinutes, string login, Role role)
     {
+        ArgumentException.ThrowIfNullOrEmpty(login);
+
         var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.ASCII.GetBytes(secretTokenKey);
         var tokenDescriptor = new SecurityTokenDescriptor
                               {
                                   Subject = new(new[]
                                                 {
-                                                    new Claim(ClaimTypes.Email, email),
+                                                    new Claim(ExtendedClaimTypes.Login, login),
                                                     new Claim(ClaimTypes.Role, role.ToString())
                                                 }),
 
@@ -33,45 +43,35 @@ public class TokenService(IRefreshTokenRepository refreshTokenRepository):IToken
         return accessToken;
     }
 
-    public string GetEmailFromToken(string token, string secretTokenKey)
+    public string TryGetLoginFromToken(string token)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
-        var validationParameters = new TokenValidationParameters
-                                   {
-                                       ValidateIssuerSigningKey = true,
-                                       IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretTokenKey)),
-                                       ValidateIssuer = false,
-                                       ValidateAudience = false
-                                   };
 
+        var principal = tokenHandler.ValidateToken(token, _validationParameters, out _);
+        var loginClaim = principal.FindFirst(ExtendedClaimTypes.Login);
 
-        var principal = tokenHandler.ValidateToken(token, validationParameters, out _);
-        var email = principal.FindFirst(ClaimTypes.Email)!.Value;
+        if (loginClaim != null)
+            return loginClaim.Value;
 
-        return email;
+        // Обработка ошибки, если логин не найден
+        throw new InvalidOperationException("Login claim not found in token");
     }
 
-    public Role GetRoleFromToken(string token, string secretTokenKey)
+    public Role TryGetRoleFromToken(string token)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
-        var validationParameters = new TokenValidationParameters
-                                   {
-                                       ValidateIssuerSigningKey = true,
-                                       IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretTokenKey)),
-                                       ValidateIssuer = false,
-                                       ValidateAudience = false
-                                   };
 
+        var principal = tokenHandler.ValidateToken(token, _validationParameters, out _);
+        var roleClaim = principal.FindFirst(ClaimTypes.Role);
 
-        var principal = tokenHandler.ValidateToken(token, validationParameters, out _);
-        var role = principal.FindFirst(ClaimTypes.Role)!.Value;
+        if (roleClaim != null && Enum.TryParse<Role>(roleClaim.Value, out var role))
+            return role;
 
-        var roleEnum = (Role) Enum.Parse(typeof(Role), role);
-
-        return roleEnum;
+        // Обработка ошибки, если роль не найдена или некорректна
+        throw new InvalidOperationException("Invalid or missing role in token");
     }
 
-    public async Task<bool> IsValidRefreshTokenAsync(string refreshToken, string secretTokenKey)
+    public async Task<bool> IsValidRefreshTokenAsync(string refreshToken)
     {
         var dbRefreshToken = await refreshTokenRepository.GetByTokenAsync(refreshToken);
 
@@ -79,23 +79,28 @@ public class TokenService(IRefreshTokenRepository refreshTokenRepository):IToken
             return false;
 
         var tokenHandler = new JwtSecurityTokenHandler();
-        var validationParameters = new TokenValidationParameters
-                                   {
-                                       ValidateIssuerSigningKey = true,
-                                       IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretTokenKey)),
-                                       ValidateIssuer = false,
-                                       ValidateAudience = false
-                                   };
 
         try
         {
-            tokenHandler.ValidateToken(refreshToken, validationParameters, out _);
+            tokenHandler.ValidateToken(refreshToken, _validationParameters, out _);
             return true;
         }
         catch
         {
             return false;
         }
+    }
+
+    public async Task TryUpdateTokenInDataBaseAsync(string token, string newToken)
+    {
+        var tokenFromDb = await refreshTokenRepository.GetByTokenAsync(token);
+
+        if (tokenFromDb is null)
+            throw new InvalidOperationException("Token is not exist in database");
+
+        tokenFromDb.Token = newToken;
+
+        await refreshTokenRepository.UpdateAsync(tokenFromDb);
     }
 
     public async Task TryAddTokenToDataBaseAsync(string token)

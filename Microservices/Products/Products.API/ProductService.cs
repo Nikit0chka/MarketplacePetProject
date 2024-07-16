@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MyProduct = Infrastructure.Models.Product;
+﻿using Entities.DataBase.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Product.API
+namespace Products.API
 {
     [Route("api/products")]
     [ApiController]
@@ -10,7 +10,7 @@ namespace Product.API
         [HttpGet]
         public async Task<IActionResult> GetAllProducts()
         {
-            return Ok(new MyProduct());
+            return Ok();
         }
 
         [HttpGet("{productId}")]
@@ -20,19 +20,19 @@ namespace Product.API
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddProduct(MyProduct product)
+        public async Task<IActionResult> AddProduct(Product product)
         {
             throw new NotImplementedException();
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateProduct(MyProduct product)
+        public async Task<IActionResult> UpdateProduct(Product product)
         {
             throw new NotImplementedException();
         }
 
         [HttpDelete]
-        public async Task<IActionResult> DeleteProduct(MyProduct product)
+        public async Task<IActionResult> DeleteProduct(Product product)
         {
             throw new NotImplementedException();
         }

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Authentication.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:17600;http://localhost:17601"
+    }
+  }
+}

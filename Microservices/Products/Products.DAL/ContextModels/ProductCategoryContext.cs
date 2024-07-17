@@ -6,7 +6,7 @@ namespace Products.DAL.ContextModels
     {
         [Key]
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public ProductCategoryContext? ParentProductCategoryContext { get; set; }
     }
 }

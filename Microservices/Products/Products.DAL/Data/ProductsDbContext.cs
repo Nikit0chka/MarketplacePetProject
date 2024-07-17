@@ -5,7 +5,7 @@ namespace Products.DAL.Data
 {
     public class ProductsDbContext : DbContext
     {
-        public DbSet<ProductContext> Products { get; set; }
+        public required DbSet<ProductContext> Products { get; set; }
 
         public ProductsDbContext() : base()
         {

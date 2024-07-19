@@ -7,6 +7,8 @@
 /Services/bin
 /Entities/bin
 /Entities/obj
+/Microservices/Infrastructure/obj
+/Microservices/Infrastructure/bin
 /Microservices/Authentication.Api/obj
 /Microservices/Authentication.Api/bin
 /Microservices/Products/Products.API/bin

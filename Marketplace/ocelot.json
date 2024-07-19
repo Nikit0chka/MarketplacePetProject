@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/products/",
+      "DownstreamPathTemplate": "/api/products",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -9,9 +9,21 @@
           "Port": 5002
         }
       ],
-      "UpstreamPathTemplate": "/api/products/",
+      "UpstreamPathTemplate": "/api/products",
       "UpstreamHttpMethod": [ "Get" ]
-    }
+    },
+    {
+      "DownstreamPathTemplate": "/api/products/{productId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/api/products/{productId}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
   ],
   "GlobalConfiguration": {
     "BaseUrl": "https://localhost:5000"
